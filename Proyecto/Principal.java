@@ -15,6 +15,7 @@ import java.util.Scanner;
 public class Principal {
     static int opcion;
     static Scanner teclado = new Scanner(System.in);
+    Connection conexion;
 
     public static void main(String[] args) {
         int opcion;
